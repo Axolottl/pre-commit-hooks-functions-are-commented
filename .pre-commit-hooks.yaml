@@ -199,3 +199,9 @@
     language: python
     types: [text]
     stages: [commit, push, manual]
+-   id: check-functions-are-commented
+    name: check functions are commented
+    description: checks if functions are commented with the pheonix lint.
+    entry: functions-are-commented
+    language: python
+    stages: [commit, push, manual]
